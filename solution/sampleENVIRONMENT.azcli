@@ -1,7 +1,7 @@
 az login --use-device-code
 az account list -o table
 
-UNIQUEID=<your-unique-id>
+UNIQUEID=45678
 APPNAME=petclinic
 RESOURCE_GROUP=rg-$APPNAME-$UNIQUEID
 LOCATION=northeurope
@@ -14,7 +14,7 @@ SUBNET_ID=$(az network vnet subnet show --resource-group $RESOURCE_GROUP --vnet-
 AKSCLUSTER=aks-$APPNAME-$UNIQUEID
 MYSQL_SERVER_NAME=mysql-$APPNAME-$UNIQUEID
 MYSQL_ADMIN_USERNAME=myadmin
-MYSQL_ADMIN_PASSWORD=<your-admin-pw>
+MYSQL_ADMIN_PASSWORD=phil1988
 DATABASE_NAME=petclinic
 NAMESPACE=spring-petclinic
 VERSION=3.0.2
