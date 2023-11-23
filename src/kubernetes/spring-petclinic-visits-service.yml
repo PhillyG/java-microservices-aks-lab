@@ -15,7 +15,7 @@ spec:
         app: visits-service
     spec:
       containers:
-      - image: .azurecr.io/spring-petclinic-visits-service:
+      - image: acrpetclinic0354c7.azurecr.io/spring-petclinic-visits-service:3.0.2
         name: visits-service
         env:
         - name: "CONFIG_SERVER_URL"

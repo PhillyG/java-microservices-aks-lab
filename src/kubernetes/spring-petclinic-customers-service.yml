@@ -15,7 +15,7 @@ spec:
         app: customers-service
     spec:
       containers:
-      - image: .azurecr.io/spring-petclinic-customers-service:
+      - image: acrpetclinic0354c7.azurecr.io/spring-petclinic-customers-service:3.0.2
         name: customers-service
         env:
         - name: "CONFIG_SERVER_URL"

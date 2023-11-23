@@ -15,7 +15,7 @@ spec:
         app: config-server
     spec:
       containers:
-      - image: .azurecr.io/spring-petclinic-config-server:
+      - image: acrpetclinic0354c7.azurecr.io/spring-petclinic-config-server:3.0.2
         name: config-server
         env:
         - name: "CONFIG_SERVER_URL"

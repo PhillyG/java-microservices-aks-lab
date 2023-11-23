@@ -15,7 +15,7 @@ spec:
         app: vets-service
     spec:
       containers:
-      - image: .azurecr.io/spring-petclinic-vets-service:
+      - image: acrpetclinic0354c7.azurecr.io/spring-petclinic-vets-service:3.0.2
         name: vets-service
         env:
         - name: "CONFIG_SERVER_URL"
